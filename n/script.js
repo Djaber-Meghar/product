@@ -1,18 +1,16 @@
 window.onload = function () {
-    alert("begin");
     var btn = document.getElementById("btn");
     var btn_ctn = document.getElementsByClassName("btn_cnt")[0];
     btn.disabled = true;
     btn.style.background = 'gray';
     btn.style.color = '#2d2d2d';
     btn_ctn.style.WebkitBackground = 'gray';
-    alert('end');
+  
     btn_ctn.style.WebkitBackground = 'gray';
     btn.style.height = "100%";
     btn.style.WebkitBackground = 'gray';
     btn.style.WebkitColor = '#2d2d2d';
    
-    alert("hi");
 }
 
 function check() {
